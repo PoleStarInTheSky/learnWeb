@@ -5,6 +5,8 @@ setInterval(()=>{
     name = document.getElementById("toWho").value;
     if(name){
         viewName.innerHTML = name;
+    }else{
+        viewName.innerHTML = '';
     }
 }
 ,100);

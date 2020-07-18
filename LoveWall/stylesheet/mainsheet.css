@@ -25,7 +25,7 @@ header {
  } 
 
  .img-list {
-   
+    max-width: 100%;
     width: 700px;
     height: 393px;
     margin: 40px auto;
@@ -37,6 +37,7 @@ header {
     position: absolute;
     opacity: 0;
     animation: loop 9s infinite; 
+    max-width: 100%;
  }
  
 @keyframes loop{
@@ -103,6 +104,7 @@ textarea {
     color: #ffffff;
     font-size: 20px;
     font-family: sans-serif;
+    max-width: 70%;
 
 }
 
@@ -123,3 +125,6 @@ input[type=text]:focus,textarea:focus {
     color: black;
 }
 
+img {
+    max-width: 100%;
+}
